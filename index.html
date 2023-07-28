@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Emporium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand ms-3 logo" href="index.html">
+                <img src="./images/Logo.png" alt="Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-start ms-5 ms-lg-0" id="navbarNav">
+                <ul class="navbar-nav me-auto me-3 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produits.html">Produits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="connexion.html">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="inscription.html">S'inscrire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto me-3 fw-bold">
+                    <div>
+                        <form action="#" class="search-box">
+                            <input type="text" name="q" autocomplete="off" autocapitalize="off" placeholder="Rechercher" required/>
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Affichage -->
+    <section class="affichage" id="affichge">
+        <div class="container">
+            <div class="row text-light d-flex text-center text-lg-start align-items-center content">
+                <div class="col-lg-6">
+                    <p class="fs-4 mini-title mt-5">Ton imagination notre style</p>
+                    <h1 class="py-4 plonge text-uppercase">Plongez dans le monde du style avec passion</h1>
+                    <a class="btn px-4 py-2 fs-5 af_button fw-bold rounded rounded-pill" href="#ty_Produits">Plonger !</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/Structure.png" class="img-fluid" alt="Sigle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="./images/wave.png" alt="wave" class="img-fluid w-100">
+
+    <!-- Types de produits -->
+    <section class="type_produits pt-5" id="ty_Produits">
+        <div class="container mt-4 text-center">
+            <h2 class="text-dark pt-3 fs-1 text-center">Types de styles</h2>
+            <p class="text-center text-secondary pb-2">Admirez les nouvelles collections</p>
+            <a href="produits.html"><button class="btn mb-5 af_buttonB">Voir les styles</button></a>
+            <div class="row text-start">
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="Cp-product text-bg-light position-relative p-3 rounded shadow-sm">
+                        <div class="Cp-img">
+                            <img src="./images/styles/1.jpg" alt="Product1" class="img-fluid rounded">
+                        </div>
+                        <div class="Cp-text">
+                            <div class="category p-1 mb-4 text-center fw-bold fs-6 position-relative">
+                                <span class="text-light rounded-pill py-2 px-4 w-75">Anime Hoodie</span>
+                            </div>
+                            <div class="title-product py-4">
+                                <h3 class="fw-bold fs-5 overflow-hidden w-100">Anime et Style</h3>
+                            </div>
+                            <div class="description-prod mb-3 overflow-hidden w-100">
+                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center border-top border-light-subtle pt-3 ps-1 text-start">
+                                <div class="float-start">
+                                    <span>Edition Limitée</span>
+                                </div>
+                                <div class="float-end">
+                                    <a href="produits.html" class="btn af_buttonB">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="Cp-product text-bg-light position-relative p-3 rounded shadow-sm">
+                        <div class="Cp-img">
+                            <img src="./images/styles/2.jpg" alt="Product1" class="img-fluid rounded">
+                        </div>
+                        <div class="Cp-text">
+                            <div class="category p-1 mb-4 text-center fw-bold fs-6 position-relative">
+                                <span class="text-light rounded-pill py-2 px-4 w-75">Anime Cosplay</span>
+                            </div>
+                            <div class="title-product py-4">
+                                <h3 class="fw-bold fs-5 overflow-hidden w-100">Déguisement</h3>
+                            </div>
+                            <div class="description-prod mb-3 overflow-hidden w-100">
+                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center border-top border-light-subtle pt-3 ps-1 text-start">
+                                <div class="float-start">
+                                    <span class="text-danger">5 Pièces restantes</span>
+                                </div>
+                                <div class="float-end">
+                                    <a href="produits.html" class="btn af_buttonB">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="Cp-product text-bg-light position-relative p-3 rounded shadow-sm">
+                        <div class="Cp-img">
+                            <img src="./images/styles/202300002.jpg" alt="Product1" class="img-fluid rounded">
+                        </div>
+                        <div class="Cp-text">
+                            <div class="category p-1 mb-4 text-center fw-bold fs-6 position-relative">
+                                <span class="text-light rounded-pill py-2 px-4 w-75">Man Fashion</span>
+                            </div>
+                            <div class="title-product py-4">
+                                <h3 class="fw-bold fs-5 overflow-hidden w-100">Style d'hommes</h3>
+                            </div>
+                            <div class="description-prod mb-3 overflow-hidden w-100">
+                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center border-top border-light-subtle pt-3 ps-1 text-start">
+                                <div class="float-start">
+                                    <span>Edition Limitée</span>
+                                </div>
+                                <div class="float-end">
+                                    <a href="produits.html" class="btn af_buttonB">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 text-center">
+                    <div class="Cp-product text-bg-light position-relative p-3 rounded shadow-sm">
+                        <div class="Cp-img">
+                            <img src="./images/styles/202300003.jpg" alt="Product4" class="img-fluid rounded">
+                        </div>
+                        <div class="Cp-text">
+                            <div class="category p-1 mb-4 text-center fw-bold fs-6 position-relative">
+                                <span class="text-light rounded-pill py-2 px-4 w-75">Women Fashion</span>
+                            </div>
+                            <div class="title-product py-4">
+                                <h3 class="fw-bold fs-5 overflow-hidden w-100">Style de Femmes</h3>
+                            </div>
+                            <div class="description-prod mb-3 overflow-hidden w-100">
+                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center border-top border-light-subtle pt-3 ps-1 text-start">
+                                <div class="float-start">
+                                    <span>Edition Limitée</span>
+                                </div>
+                                <div class="float-end">
+                                    <a href="produits.html" class="btn af_buttonB">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Produits les plus achetés -->
+    <section class="produitsPA pt-1 mt-5" id="Produits_PA">
+        <div class="container mt-4">
+            <h2 class="text-dark pt-3 fs-1 text-center">Produits les plus achetés</h2>
+            <p class="text-center text-secondary pb-3">Ceux que les clients aiment</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="backgroundEffect w-100"></div>
+                        <img src="images/PPA/Watch.jpg" class="card-img-top" alt="Produit 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Trendy Dress</h5>
+                            <p class="card-text m-0 mb-3">Blue Coat and dress for women</p>
+                            <p class="fs-5 text-start fw-bold m-0 mb-3">65.000 CFA</p>
+                            <a href="details_produits.html" class="btn d-flex align-items-center justify-content-center rounded-5 border-0">Acheter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="backgroundEffect w-100"></div>
+                        <img src="images/PPA/202300003 copy.jpg" class="card-img-top" alt="Produit 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Men's Tracksuit Jogging</h5>
+                            <p class="card-text m-0 mb-3">Black White Hooded</p>
+                            <p class="fs-5 text-start fw-bold m-0 mb-3">35.000 CFA</p>
+                            <a href="details_produits.html" class="btn d-flex align-items-center justify-content-center rounded-5 border-0">Acheter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="backgroundEffect w-100"></div>
+                        <img src="images/PPA/Shooes.jpg" class="card-img-top" alt="Produit 1">
+                        <div class="card-body">
+                            <h5 class="card-title">AOT Nike Shoes</h5>
+                            <p class="card-text m-0 mb-3">AOT Levi Ackerman Shoes</p>
+                            <p class="fs-5 text-start fw-bold m-0 mb-3">10.000 CFA</p>
+                            <a href="details_produits.html" class="btn d-flex align-items-center justify-content-center rounded-5 border-0">Acheter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="backgroundEffect w-100"></div>
+                        <img src="images/PPA/IBS.jpg" class="card-img-top" alt="Produit 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Arabic Woman Style</h5>
+                            <p class="card-text m-0 mb-3">Women fashion in an Arabic Style</p>
+                            <p class="fs-5 text-start fw-bold m-0 mb-3">45.000 CFA</p>
+                            <a href="details_produits.html" class="btn d-flex align-items-center justify-content-center rounded-5 border-0">Acheter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages clients -->
+    <section class="container mt-4">
+        <div class="row d-flex justify-content-start">
+            <div class="col-lg-7 col-md-12">
+                <h2 class="text-dark pt-3 fs-1 text-center mb-5">Témoignages clients</h2>
+                <div class="bg-white">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex flex-start align-items-center">
+                                        <img class="rounded-circle shadow-1-strong me-3" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt="avatar" width="60" height="60" />
+                                        <div>
+                                            <h6 class="fw-bold text-primary mb-1">Lily Coleman</h6>
+                                            <p class="text-muted small mb-0">Shared publicly - Jan 2020</p>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3 mb-4 pb-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+                                    </p>
+                                    <div class="small d-flex justify-content-start">
+                                        <a href="#!" class="d-flex align-items-center me-3">
+                                            <i class="far fa-thumbs-up me-2"></i>
+                                            <p class="mb-0">Like</p>
+                                        </a>
+                                        <a href="#!" class="d-flex align-items-center me-3">
+                                            <i class="far fa-comment-dots me-2"></i>
+                                            <p class="mb-0">Comment</p>
+                                        </a>
+                                        <a href="#!" class="d-flex align-items-center me-3">
+                                            <i class="fas fa-share me-2"></i>
+                                            <p class="mb-0">Share</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex flex-start align-items-center">
+                                        <img class="rounded-circle shadow-1-strong me-3" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt="avatar" width="60" height="60" />
+                                        <div>
+                                            <h6 class="fw-bold text-primary mb-1">Lily Coleman</h6>
+                                            <p class="text-muted small mb-0">Shared publicly - Jan 2020</p>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3 mb-4 pb-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+                                    </p>
+                                    <div class="small d-flex justify-content-start">
+                                        <a href="#!" class="d-flex align-items-center me-3">
+                                            <i class="far fa-thumbs-up me-2"></i>
+                                            <p class="mb-0">Like</p>
+                                        </a>
+                                        <a href="#!" class="d-flex align-items-center me-3">
+                                            <i class="far fa-comment-dots me-2"></i>
+                                            <p class="mb-0">Comment</p>
+                                        </a>
+                                        <a href="#!" class="d-flex align-items-center me-3">
+                                            <i class="fas fa-share me-2"></i>
+                                            <p class="mb-0">Share</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-footer py-3 border-0 bg-white-50 rounded">
+                                <p>Donnez-nous votre avis</p>
+                                <div class="d-flex flex-start w-100">
+                                    <img class="rounded-circle shadow-1-strong me-3" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt="avatar" width="40" height="40"/>
+                                    <div class="form-outline w-100">
+                                        <textarea class="form-control bg-white" id="textAreaExample" rows="4"></textarea>
+                                        <label class="form-label" for="textAreaExample">Commentaire</label>
+                                    </div>
+                                </div>
+                                <div class="text-end">
+                                    <button type="button" class="btn af_button">Poster</button>
+                                    <button type="button" class="btn af_buttonA">Annuler</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <h2 class="text-dark pt-3 fs-1 text-center mb-5">Nos partenaires</h2>
+                <div class="bg-white mx-3">
+                    <div class="row d-flex justify-content-center">
+                        <div class="card d-flex justify-content-center">
+                            <div class="card-body text-center">
+                                <img src="./images/Partenaires/Nike.png" alt="Nike" class="img-fluid">
+                            </div>
+                            <div class="card-body text-center">
+                                <img src="./images/Partenaires/Adidas.png" alt="Nike" class="img-fluid">
+                            </div>
+                            <div class="card-body text-center">
+                                <img src="./images/Partenaires/Nike.png" alt="Nike" class="img-fluid">
+                            </div>
+                            <div class="card-body text-center">
+                                <img src="./images/Partenaires/Nike.png" alt="Nike" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row text-center text-light d-flex">
+                <div class="col-md-6 order-1 order-md-0">
+                    <p class="my-3">2023 StyleEmporium &copy; Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <p class="my-3">Suivez-Nous sur:</p>
+                    <a href="#" class="text-decoration-none text-warning-emphasis mx-3">
+                        <i class="fa-brands fa-facebook fs-2"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none text-warning-emphasis me-3">
+                        <i class="fa-brands fa-twitter fs-2"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none text-warning-emphasis me-3">
+                        <i class="fa-brands fa-instagram fs-2"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none text-warning-emphasis me-3">
+                        <i class="fa-brands fa-snapchat fs-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

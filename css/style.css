@@ -1,0 +1,418 @@
+@import url(../node_modules/bootstrap/scss/bootstrap.scss);
+
+/*# sourceMappingURL=style.css.map */
+body{
+    background-color: #EFE1D1;
+}
+.navbar, footer{
+    background-color: #331D2C;
+}
+.nav-link{
+    color: #EFE1D1;
+}
+.nav-link:hover{
+    color: #A78295;
+}
+.logo{
+    font-family: 'Yatra One', cursive;
+    font-size: 30px;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #EFE1D1;
+}
+.navbar-toggler, .navbar-toggler-icon{
+    color: #EFE1D1;
+    border: none;
+}
+.affichage{
+    background-color: #331D2C;
+}
+.Cp-img{
+    position:absolute;
+    top:5px;
+    left:50%;
+    transform:translate(-50%);
+    width: 100%;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+}
+.Cp-img img{
+    transition: all 0.2s ease-in-out;
+}
+.Cp-product:hover .Cp-img{
+    top:-40px;
+}
+.Cp-product:hover .Cp-img img{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.Cp-text{
+    padding-top: 65%;
+}
+.Cp-text .category{
+    transition: all 0.2s ease-in-out;
+}
+.Cp-text .category > *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Cp-text .category > span{
+    background:#331D2C;
+    transition: all 0.05s ease-in-out;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.Cp-product:hover .Cp-text .category > span{
+    border-color:#ddd;
+    box-shadow: none;
+    padding: 11px 28px;
+}
+.Cp-text .description-prod{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.af_button{
+    background-color: #EFE1D1;
+    color: #331D2C;
+}
+.af_button:hover{
+    color: #EFE1D1;
+    background-color: #331D2C;
+}
+.af_buttonA{
+    color: #331D2C;
+    border: 1px solid #331D2C;
+}
+.af_buttonA:hover{
+    background-color: #331D2C;
+    color: #EFE1D1;
+}
+.af_buttonB{
+    background-color: #331D2C;
+    color: #EFE1D1;
+}
+.af_buttonB:hover{
+    color: #EFE1D1;
+    background-color: #7a466a;
+}
+.af_buttonC{
+    background-color: #EFE1D1;
+    color: #331D2C;
+    border-color: #331D2C;
+}
+.af_buttonC:hover{
+    color: #EFE1D1;
+    background-color: #331D2C;
+    border-color: #331D2C;
+}
+.content p{
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    font-size: 4em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #331D2C, #fff, #331D2C);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+}
+.plonge{
+    letter-spacing: 7px;
+    font-weight: 700;
+    font-weight: 900;
+    background: url(../images/Text\ ackground.jpg);
+    background-size: 40%;
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0.08);
+    animation: zoomout 10s ease 500ms forwards;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EFE1D1;
+}
+  
+  @keyframes zoomout {
+    from {
+      background-size: 40%;
+    }
+    to {
+      background-size: 10%;
+    }
+}
+.connexion{
+    background-color: #3F2E3E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.connexion a, .inscription a{
+    color: #EFE1D1;
+}
+.img-connexion{
+    height: 100%;
+    object-fit: cover; 
+    object-position: left;
+}
+.search-box {
+    display: inline-flex;
+    padding: 2px;
+    border: 2px solid #EFE1D1;
+    outline: none;
+    border-radius: 30px;
+}
+.search-box:focus-within {
+    border-color: #3F2E3E;
+}
+.search-box input {
+    outline: none;
+    border: none;
+    width: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 0;
+    transition: width .4s cubic-bezier(0.18, 0.89, 0.32, 1.33);
+}
+.fa-magnifying-glass{
+    color: #EFE1D1;
+}
+.search-box input::placeholder {
+    color: #EFE1D1;
+}
+.search-box:hover input,
+	.search-box input:focus,
+	.search-box input:valid {
+		margin-left: 5px;
+		width: 250px;
+}
+.search-box button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    appearance: none;
+    background-color: #3F2E3E;
+}
+.fa-brands{
+    color: #EFE1D1;
+}
+.fa-brands:hover{
+    color: #A78295;
+}
+.product-description {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 50vw;
+}
+.affichage .container img{
+    position: relative;
+    transition: 0.5s;
+}
+.affichage .container img:hover{
+    opacity: 0.8;
+}
+.type_produits .row .card:hover img{
+    opacity: 0.7;
+}
+.type_produits .row .card:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    transition: all 0.2s ease-in;
+    margin-top: -10px;
+}
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.cascading-right{
+    background: hsla(0, 0%, 100%, 0.55);
+    backdrop-filter: blur(30px);
+    margin-right: -50px;
+}
+@media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+}
+.inscription{
+    background-color: #331D2C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.inscription .fa-brands{
+    color: #331D2C;
+}
+.inscription .fa-brands:hover{
+    color: #A78295;
+}
+.contact-section{
+    background-color: #331D2C;
+}
+.contact-section .dbox .fa-solid{
+    color: #331D2C;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-section .dbox .fa-solid::before{
+    height: 80px;
+    width: 80px;
+    background-color: #EFE1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.produitsPA .card:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+.produitsPA .card:hover .backgroundEffect{
+    bottom: 0;
+    height: 186.1px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #331D2C;
+    animation: popBackground 0.5s ease-in;
+}
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+    }
+}
+.produitsPA .card .btn {
+    background-color: #331D2C;
+    color: #EFE1D1;
+}
+.produitsPA .card:hover .btn {
+    background: #EFE1D1;
+    color: #331D2C;
+    box-shadow: #0000001a 0px 3px 5px;
+}
+.ecommerce-gallery img {
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.ecommerce-gallery img.selected {
+    border: 4px solid #331D2C; /* Add your desired border color for selected images */
+}
+.rating {
+    display: inline-block;
+}
+.rating input {
+    display: none;
+}
+.rating label {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc;
+}
+.rating label:before {
+    content: "\2605";
+}
+.rating input:checked ~ label {
+    color: #ffbb00;
+}
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #ffbb00;
+}
+.details button {
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #331D2C;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #331D2C;
+}
+   
+.details button, .details button span {
+    transition: 200ms;
+}
+.details button .text {
+    transform: translateX(3px);
+    color: white;
+    font-weight: bold;
+}
+   
+.details button .icon {
+    position: absolute;
+    border-left: 1px solid #3F2E3E;
+    transform: translateX(140px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+.details button i {
+    font-size: 15px;
+    color: white;
+}
+   
+.details button:hover {
+    background: #331D2C;
+}
+   
+.details button:hover .text {
+    color: transparent;
+}
+   
+.details button:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(12px);
+}
+   
+.details button:focus {
+    outline: none;
+}
+   
+.details button:active .icon i{
+    transform: scale(0.8);
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Emporium - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand ms-3 logo" href="index.html">
+                <img src="./images/Logo.png" alt="Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-start ms-5 ms-lg-0" id="navbarNav">
+                <ul class="navbar-nav me-auto me-3 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produits.html">Produits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="connexion.html">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="inscription.html">S'inscrire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+                <ul class="navbar-nav ms-auto me-3 fw-bold d-none">
+                    <div>
+                        <form action="#" class="search-box">
+                            <input type="text" name="q" autocomplete="off" autocapitalize="off" placeholder="Rechercher" required/>
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenu de la page de connexion -->
+    <section class="connexion mt-5 pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 text-black">
+                    <div class="px-5 d-flex align-items-center justify-content-around">
+                        <img src="./images/Logo GF.png" class="img-fluid pt-2" alt="">
+                    </div>
+                    <div class="d-flex align-items-center px-5 ms-xl-4 mt-0 mt-lg-5 pt-5 pt-xl-0 mt-xl-n5">
+                        <form style="width: 55rem;" class="text-white">
+                            <h3 class="fw-normal mb-3 pb-3 text-center fw-bold text-white fs-1">Connexion</h3>
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form2Example18" class="form-control form-control-lg" />
+                                <label class="form-label" for="form2Example18">Email</label>
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input type="password" id="form2Example28" class="form-control form-control-lg" />
+                                <label class="form-label" for="form2Example28">Mot de passe</label>
+                            </div>
+                            <p class="small pb-lg-2"><a href="#!">Mot de passe oublié?</a></p>
+                            <div class="pt-1 mb-4 d-flex justify-content-center justify-content-lg-start">
+                                <button class="btn px-4 py-2 af_buttonC fw-bold rounded rounded-pill w-100" type="button">Login</button>
+                            </div>
+                            <p class="mb-5">Pas de compte? <a href="inscription.html">S'inscrire ici</a></p>
+                            <div class="divider d-flex align-items-center my-4">
+                                <p class="text-center fw-bold mx-3 mb-0">OU</p>
+                            </div>
+                            <div class="d-flex justify-content-center mb-5">
+                                <a class="btn btn-outline-primary btn-block me-3 fw-bold text-white" role="button">
+                                    <i class="fab fa-facebook-f me-2"></i>Continuer avec Facebook
+                                </a>
+                                <a class="btn btn-outline-info btn-block fw-bold text-white" role="button">
+                                    <i class="fab fa-twitter me-2"></i>Continuer avec Twitter
+                                </a>
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+                <div class="col-lg-6 px-0 d-none d-lg-flex">
+                    <img src="./images/styles/background_otaku.jpg" alt="Login image" class="img-fluid img-connexion">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="d-none">
+        <div class="container">
+            <div class="row text-center text-light d-flex">
+                <div class="col-md-6 order-1 order-md-0">
+                    <p class="my-3">2023 StyleEmporium &copy; Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <p class="my-3">Suivez-Nous sur:</p>
+                    <a href="#" class="text-decoration-none text-warning-emphasis mx-3">
+                        <i class="fa-brands fa-facebook fs-2"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none text-warning-emphasis me-3">
+                        <i class="fa-brands fa-twitter fs-2"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none text-warning-emphasis me-3">
+                        <i class="fa-brands fa-instagram fs-2"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none text-warning-emphasis me-3">
+                        <i class="fa-brands fa-snapchat fs-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
