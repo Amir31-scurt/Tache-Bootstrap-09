@@ -37,7 +37,7 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ms-auto me-3 fw-bold d-none">
+                <ul class="navbar-nav ms-auto me-3 fw-bold">
                     <div>
                         <form action="#" class="search-box">
                             <input type="text" name="q" autocomplete="off" autocapitalize="off" placeholder="Rechercher" required/>
@@ -57,87 +57,46 @@
     </header>
 
     <!-- Contenu de la page de connexion -->
-    <section class="contact-section mt-5 pt-5">
+    <section class="ftco-section py-5 mt-5 px-3 px-lg-0">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center mb-5">
-                    <h2 class="heading-section text-light">Contact</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center text-light">
-                <div class="col-lg-10 col-md-12">
-                    <div class="wrapper">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 mb-5">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="dbox w-100 text-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <span class="fa-solid fa-location-dot"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p><span>Address:</span> HLM Grand Yoff, Dakar batiment 32</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dbox w-100 text-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <span class="fa-solid fa-phone"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p><span>Téléphone:</span> <a href="#">+221 77 123 45 67</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dbox w-100 text-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <span class="fa-solid fa-paper-plane"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p><span>Email:</span> <a href="#"><span>StyleEmp@Gmail.com</span></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="contact-wrap">
-                                    <h3 class="mb-4 text-center">Contactez-nous</h3>
-                                        <form method="#" id="contactForm" name="contactForm" class="contactForm">
-                                            <div class="row">
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="name" id="name" placeholder="Nom">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Message"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-5">
-                                                    <div class="form-group">
-                                                        <input type="submit" class="btn w-100 af_button fw-bold text-uppercase" value="Envoyer">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                </div>
-                            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8 contact-section px-5 d-flex justify-content-center align-items-center">
+                    <form class="w-100">
+                        <span class="d-block fs-3 fw-bold text-center py-4">Contactez-nous</span>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nom">
+                            <label for="floatingInput">
+                                <i class="fa-regular fa-user"></i> - Nom Complet
+                            </label>
+                        </div>                   
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder=Email">
+                            <label for="floatingInput">
+                                <i class="fa-regular fa-envelope"></i> - Email
+                            </label>
                         </div>
-                    </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Sujet">
+                            <label for="floatingInput">
+                                <i class="fa-regular fa-note-sticky"></i> - Sujet
+                            </label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control h-100" placeholder="Message" id="message" rows="9" cols="30"></textarea>
+                            <label for="message">
+                                <i class="fa-regular fa-message"></i> - Message
+                            </label>
+                        </div>
+                        <div class="divider1 d-flex align-items-center my-2">
+                            <p class="text-center fw-bold mx-3 mb-0">OU</p>
+                        </div>
+                        <div class="contact1-form-checkbox">
+                            <span>Appelez-nous <i class="fa-solid fa-phone"></i> : <a href="#">+221 33 123 45 67</a></span>
+                        </div>
+                        <div class="contact-btn mt-3">
+                            <button class="btn af_buttonB w-100 rounded-pill">Envoyer</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

@@ -234,11 +234,18 @@ body{
     margin-top: -10px;
 }
 .divider:after,
-.divider:before {
+.divider:before{
     content: "";
     flex: 1;
     height: 1px;
     background: #eee;
+}
+.divider1:after,
+.divider1:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #e9e9e9;
 }
 .cascading-right{
     background: hsla(0, 0%, 100%, 0.55);
@@ -263,7 +270,10 @@ body{
     color: #A78295;
 }
 .contact-section{
-    background-color: #331D2C;
+    background: hsla(0, 0%, 100%, 0.55);
+    backdrop-filter: blur(30px);
+    padding-bottom: 25px;
+    border-radius: 10px;
 }
 .contact-section .dbox .fa-solid{
     color: #331D2C;
@@ -415,4 +425,7 @@ body{
    
 .details button:active .icon i{
     transform: scale(0.8);
+}
+.ftco-section{
+    background-color: #331D2C;
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
   <!-- Navbar -->
-    <header>
+   <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <a class="navbar-brand ms-3 logo" href="index.html">
                 <img src="./images/Logo.png" alt="Logo" class="img-fluid">
@@ -19,8 +19,8 @@
             <button class="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-center" id="navbarNav">
-                <<ul class="navbar-nav me-auto me-3 fw-bold">
+            <div class="collapse navbar-collapse text-start ms-5 ms-lg-0" id="navbarNav">
+                <ul class="navbar-nav me-auto me-3 fw-bold">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Accueil</a>
                     </li>
@@ -57,7 +57,7 @@
     </header>
     <section class="mt-5 pt-5">
         <div class="container">
-            <div class="row">
+            <div class="row m-3 m-lg-0">
                 <div class="col-lg-6">
                     <div class="ecommerce-gallery" data-mdb-zoom-effect="true" data-mdb-auto-height="true">
                         <div class="row py-3 shadow-5">
@@ -66,6 +66,7 @@
                                     <img src="./images/PPA/Watch.jpg" id="mainImage" class="ecommerce-gallery-main-img active w-100" />
                                 </div>
                             </div>
+                            <h4 class="mb-2">Choisir une couleur:</h4>
                             <div class="col-3 mt-1">
                                 <img src="./images/PPA/Watch.jpg" data-mdb-img="./images/PPA/Watch.jpg" alt="Gallery image 1" class="w-100">
                             </div>
@@ -81,9 +82,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="ms-5 details">
-                        <h2>Trendy Dress</h2>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="ms-lg-5 details">
+                        <h2 class="">Trendy Dress</h2>
                         <p>Coat and dress for women</p>
                         <div class="rating mb-3">
                             <input type="radio" name="rating" id="star5" value="5">
@@ -115,7 +116,7 @@
                                 <input type="number" class="form-control" id="quantity" value="1" min="1">
                             </div>
                         </div>
-                        <button class="panier my-5">
+                        <button class="panier my-5 d-flex mx-auto mx-lg-0">
                             <span class="text">Ajouter au panier</span>
                             <span class="icon">
                                 <i class="fa-solid fa-cart-shopping"></i>
