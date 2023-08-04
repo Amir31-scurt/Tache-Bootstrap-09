@@ -149,7 +149,7 @@ body{
       background-size: 10%;
     }
 }
-.connexion{
+.connexion, .inscription{
     background-color: #3F2E3E;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,6 +162,11 @@ body{
     height: 100%;
     object-fit: cover; 
     object-position: left;
+}
+.img-inscription{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
 }
 .search-box {
     display: inline-flex;
@@ -257,14 +262,8 @@ body{
       margin-right: 0;
     }
 }
-.inscription{
-    background-color: #331D2C;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
 .inscription .fa-brands{
-    color: #331D2C;
+    color: #EFE1D1;
 }
 .inscription .fa-brands:hover{
     color: #A78295;
